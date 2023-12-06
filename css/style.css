@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0px;
     flex: 1 1 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .top-container {
@@ -14,10 +15,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 12px 160px 120px 160px;
+
 }
 
 #logo {
     color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .links ul {
@@ -31,4 +36,53 @@ ul a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 160px 120px 160px;
+}
+
+.intro .left {
+    width: 400px;
+}
+
+#heading-top {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0px;
+    line-height: 95%;
+}
+
+#heading-desc {
+    font-size: 16px;
+    color: #E5E7EB;
+    margin: 8px 0px;
+    padding: 0px;
+}
+
+#sign-up {
+    background:  #3882F6;
+    width: 120px;
+    height: 32px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    margin-top: 6px;
+}
+
+#sign-up a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.intro .right {
+    background: gray;
+    width: 500px;
+    height: 250px;
 }
