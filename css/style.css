@@ -72,17 +72,65 @@ ul a {
     border-radius: 8px;
     border: none;
     margin-top: 6px;
-}
-
-#sign-up a {
-    text-decoration: none;
     color: #F9FAF8;
     font-weight: bold;
     font-size: 14px;
+    cursor: pointer;
+}
+
+#sign-up:hover {
+    background: orange;
+    opacity: 90%;
 }
 
 .intro .right {
     background: gray;
     width: 500px;
     height: 250px;
+}
+
+.mid-container {
+    background: #F9FAF8;
+}
+
+.heading-mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.images-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.images-container .mid-image {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-container .texts {
+    font-size: 14px;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.images-container img {
+    width: 125px;
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    
 }
