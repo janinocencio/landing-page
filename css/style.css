@@ -78,7 +78,8 @@ ul a {
     cursor: pointer;
 }
 
-#sign-up:hover {
+#sign-up:hover,
+#sign-up-action:hover {
     background: orange;
     opacity: 90%;
 }
@@ -161,4 +162,46 @@ ul a {
     align-self: center;
     margin-top: 0px;
     margin-bottom: 80px;
+}
+
+.bot-container-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.bot-container-2 > .box-container {
+    background: #3882F6;
+    width: 700px;
+    padding: 40px 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+#action-title {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 4px 0px;
+}
+
+#action-desc {
+    color: #E5E7EB;
+    font-size: 14px;
+    margin: 0px;
+}
+
+#sign-up-action {
+    width: 90px;
+    height: 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: #E5E7EB solid 2px;
+    border-radius: 6px;
+    cursor: pointer;
 }
