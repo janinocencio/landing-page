@@ -132,5 +132,33 @@ ul a {
     height: 120px;
     border: 3px solid #3882F6;
     border-radius: 10px;
-    
+}
+
+.bot-container-1 {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-container-1 > .quotes {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 820px;
+    align-self: center;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.bot-container-1 > .author {
+    display:flex;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #1F2937;
+    width: 820px;
+    justify-content: flex-end;
+    align-self: center;
+    margin-top: 0px;
+    margin-bottom: 80px;
 }
