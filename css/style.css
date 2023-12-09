@@ -33,10 +33,15 @@ body {
 
 
 ul a {
-    text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
 
 .intro {
     display: flex;
@@ -204,4 +209,23 @@ ul a {
     border: #E5E7EB solid 2px;
     border-radius: 6px;
     cursor: pointer;
+}
+
+.footer {
+    background: #1F2937;
+}
+
+.footer > p {
+    color: #E5E7EB;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer a {
+    padding-left: 4px;
+    color: #E5E7EB;
 }
